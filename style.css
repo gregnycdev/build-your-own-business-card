@@ -1,0 +1,63 @@
+
+
+.container:hover {
+    filter: contrast(150%);
+    transform: rotate(360deg) scale(1.25);
+    box-shadow: 0px 0px 10px #333;
+    margin: 15%;
+}
+
+.container {
+  margin: 5%;
+  transition: 1s;
+  height: 200px;
+  width: 350px;
+  border: 0px solid #F00;
+  border-radius: 15px;
+  position: absolute;
+  background: linear-gradient(-45deg, #0E6BA8, #DDD);
+  box-shadow: 0px 0px 25px black;
+}
+#logo {
+  position: absolute;
+  width: 50px;
+  right: 15px;
+  top: 20px;
+  filter: brightness(0) invert(1);
+}
+
+#name {
+  text-decoration: underline;
+  letter-spacing: 0.2rem;
+  line-height: 0.5rem;
+  font-family: cursive;
+  padding-top: 20px;
+  text-transform: capitalize;
+}
+
+#title {
+  font-family: monospace;
+  font-weight: normal;
+}
+
+hr {
+  margin-bottom: 25px;
+}
+
+p {
+  font-family: monospace;
+  line-height: 0.25rem;
+}
+
+h1, h2, p {
+  padding-left: 15px;
+}
+
+h2, p, a {
+  color: #0A2472;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
